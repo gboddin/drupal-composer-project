@@ -3,13 +3,13 @@
   "description": "Composer template for Drupal projects",
   "repositories": [{
     "type": "composer",
-    "url": "https://packages.drupal.org/8"
+    "url": "https://packages.drupal.org/7"
   }],
   "require": {
     "composer/installers": "~1.0",
     "derhasi/composer-preserve-paths": "0.1.*",
     "drupal/drupal": "7.*",
-    "drupal/token": "^1.6"
+    "gbodin/ec-light-test": "~2016.10"
   },
   "conflict": {
     "drupal/core": "8.*"
